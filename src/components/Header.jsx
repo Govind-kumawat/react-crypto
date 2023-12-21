@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <HStack p={'4'} boxShadow={'base'} bgColor={'blackAlpha.900'}>
+        <HStack p={'4'} boxShadow={'base'} bgColor={'blackAlpha.900'} gap={'2'}>
             <Button variant={'unstyled'} color={'white'}>
-                <Link to='/' >Home</Link>
+                <Link to="/" >Home</Link>
             </Button>
             <Button variant={'unstyled'} color={'white'}>
-                <Link to='/exchanges' >Exchanges</Link>
+                <Link to="/exchanges" >Exchanges</Link>
             </Button>
             <Button variant={'unstyled'} color={'white'}>
-                <Link to='/coins' >Coins</Link>
+                <Link to="/coins" >Coins</Link>
             </Button>
         </HStack>
     )
